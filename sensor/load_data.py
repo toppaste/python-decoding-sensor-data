@@ -1,6 +1,4 @@
-import os
-import glob
-import csv
+import os, glob, csv
 
 def load_sensor_data():
     sensor_data = []
