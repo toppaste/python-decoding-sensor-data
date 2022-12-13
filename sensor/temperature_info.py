@@ -21,4 +21,3 @@ class TemperatureData(HouseInfo):
         recs = super().get_data_by_date("temperature", rec_date)
 
         return self._convert_data(recs)
-
